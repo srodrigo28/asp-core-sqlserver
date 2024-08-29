@@ -61,6 +61,7 @@ dotnet ef database update
 
 
 #### Ref.
+* Capi. 5 iniciado termina no cap 6 valta 1:20min
 ```
 https://www.treinaweb.com.br/painel/cursos/c-sharp-entity-framework-core-orm/aula/2/subaula/2
 ```
