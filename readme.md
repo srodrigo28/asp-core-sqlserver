@@ -1,4 +1,6 @@
 #### Exemplo DotNet Asp Core
+* Exemplo com SQL Server Express
+* Relacionamento e Projeto Terminal
 
 * Criando aplicação asp console
 ```
