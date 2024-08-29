@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src=" https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg " alt="">
+    <form>
+        <h1>Seja Bem vindo</h1>
+        <input type="text" placeholder="email">
+        <input type="text" placeholder="senha">
+        <div class="btn-group">
+            <button>Entrar</button>
+            <button>Cadastro</button>
+        </div>
+    </form>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+        }
+
+        img {
+            height: 100vh;
+            width: 50%;
+        }
+
+        form {
+            height: 100vh;
+            width: 50%;
+
+            gap: 5px;
+            display: flex;
+            padding-top: 100px;
+            align-items: center;
+            flex-direction: column;
+
+            background-color: blueviolet;
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 234px;
+            padding: 9px;
+        }
+
+        button,
+        input {
+            outline: none;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button {
+            cursor: pointer;
+            font-size: .7em;
+            transition: .7s;
+            height: 25px;
+            width: 48%;
+        }
+
+        button:hover {
+            opacity: .6;
+            font-size: .8em;
+        }
+
+        .btn-group {
+            gap: 10px;
+            height: 50px;
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        @media screen and (max-width: 1100px) {
+            form {
+                width: 100%;
+                background-color: blueviolet;
+            }
+
+            input {
+                width: 40%;
+            }
+
+            .btn-group {
+                margin-top: 10px;
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            button {
+                padding: 7px;
+                width: 100%;
+                height: 30px;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            form {
+                width: 100%;
+                background-color: blueviolet;
+            }
+
+            input {
+                width: 40%;
+            }
+
+            .btn-group {
+                margin-top: 10px;
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            button {
+                padding: 7px;
+                width: 100%;
+                height: 30px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            form {
+                width: 100%;
+            }
+
+            input {
+                width: 60%;
+            }
+
+            .btn-group {
+                margin-top: 10px;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            button {
+                padding: 7px;
+                width: 100%;
+                height: 30px;
+            }
+
+            img {
+                display: none;
+            }
+        }
+    </style>
+</body>
+
+</html>
